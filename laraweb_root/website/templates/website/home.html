@@ -49,7 +49,7 @@
 
 <div id="intro">
     <div id="intro1">
-    <h1>Professional Makeup by LARA</h1>
+    <h1 class="shailu">Professional Makeup by LARA</h1>
     <p>Lara Mamgai is one of the prominent makeup artist in mumbai with more than 5 years of experience
     in fine arts and fashion. She can give you a look "You Truly Deserve".</p>
     <form>
@@ -307,6 +307,7 @@
 <!-- library link -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <!-- script below -->
 <script type="text/javascript">
 
@@ -329,7 +330,6 @@
   var carouselSlides = document.getElementsByClassName("Slide");
   var dotNode = document.getElementsByClassName("fa fa-circle");
   var currentIndex = 0;
-  console.log(dotNode);
   for (let i = 0; i < carouselSlides.length; i++) {
       let newDot = document.createElement("li");
 
@@ -355,7 +355,6 @@
   }
   function moveLeft() {
       if (currentIndex == 0) {
-        console.log(carouselSlides.length);
         currentIndex = carouselSlides.length - 1;
       } else {
         currentIndex--;
@@ -366,9 +365,7 @@
   }
 
   function moveRight() {
-      console.log(typeof(carouselSlides.length));
       if (currentIndex == carouselSlides.length - 1) {
-        console.log(carouselSlides.length);
         currentIndex = 0;
       } else {
         currentIndex++;
@@ -385,6 +382,12 @@
 
   displayImage();
   displayDot();
+
+
+  anime({
+  targets: '.shailu',
+  translateX: 100
+  });
 </script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
 
