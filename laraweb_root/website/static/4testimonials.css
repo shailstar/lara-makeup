@@ -1,0 +1,69 @@
+#testimonials{
+	width: 100%;
+	font-size:30px;
+	color: #ff0060;
+	background-color: #5e0943;
+	background-size: cover;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#testimonials > h1{
+	font-family: 'Eagle Lake', cursive;
+}
+
+#testimonials > h1,h2{
+	text-align: center;
+}
+
+#slides{
+	display: flex;
+	justify-content: center;
+}
+
+.flexc{
+	border-radius: 50%;
+	margin-top:300px;
+	
+}
+
+.Slide {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding-top: 75px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left : 100px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 15px solid #ff0055;
+	height: 400px;
+	width: 700px;
+	text-align: center;
+	
+}
+
+quote {
+  font-family: 'Arial';
+  font-weight: bold;
+  font-size: 100px;
+  color: #ff0055;
+  margin-bottom: 0;
+}
+.dotList{
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.dotList > li {
+  margin: 3px;
+  color: grey;
+  cursor: pointer;
+}

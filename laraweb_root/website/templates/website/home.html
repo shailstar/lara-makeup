@@ -24,6 +24,7 @@
             <li><a class="line" href="/contact">Contact</a></li>
         </ul>
     </nav>
+
     <nav class="mobile">
         <ul id="logo-m">
             <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a>
@@ -80,6 +81,7 @@
 
     </div>
 </div>
+
 <div id="portfolio">
     <div class="line">
         <img id="item1" src="{% static 'Portfolio 1.jpg' %}" alt="" class="cover">
@@ -214,7 +216,9 @@
     </div>
 
 </div>
+
 <div id="brands"></div>
+
 <div id="footer">
     <div id="footer1">
        <img src="{% static 'new_logo.jpg' %}" alt="">
@@ -303,6 +307,7 @@
         </div>
     </div>
 </div>
+
 </body>
 <!-- library link -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
@@ -383,6 +388,14 @@
 
   displayImage();
   displayDot();
+
+  var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(document.querySelectorAll('*'), function (el) {
+  if (el.offsetWidth > docWidth) {
+    console.log(el);
+  }
+})
 </script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
 

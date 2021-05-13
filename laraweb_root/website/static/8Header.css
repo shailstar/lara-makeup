@@ -1,0 +1,104 @@
+@media only screen and (max-width: 800px) {
+	nav.desktop{
+		display: none;
+	}
+	nav.mobile{
+		font-family: 'Berkshire Swash', cursive;
+		display: flex;
+	    flex-direction: column;
+    }
+    ul{
+    	flex-direction: column;
+    }
+    button{
+    	color: white;
+    	background: black;
+    	border: none;
+    }
+	#left-m{
+		margin: 0px;
+		padding-left: 0px;
+	}
+	#logo-m{
+		padding: 10px;
+		flex-direction: row;
+		margin: 0px;
+		padding-left: 0px;
+	}
+
+	#right-m{
+		margin-top: 0px;
+		padding-left: 0px;
+	}
+}
+
+
+
+header{
+	width: 100%;
+}
+
+a.line {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 1px;
+  color: white;
+  text-decoration: none;
+  transition: background-size .5s;
+}
+
+a:hover {
+  background-size: 4px 50px;
+}
+
+nav{
+	height: 96px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px; 
+	display: flex;
+	width: 100%;
+}
+
+nav > ul  {
+	display: flex;
+	background-color: black; 
+	flex: 3;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav > li {
+	margin:20px;
+	list-style-type: none
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#left-d{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#logo-d{
+	margin-top: 0px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+#right-d{
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right:40px;
+	margin-bottom: 0px;
+}
+
+nav.mobile{
+	display: none;
+}
