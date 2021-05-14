@@ -57,7 +57,7 @@
         <input class="styled" type="button" value="Read More">
     </form>
     </div>
-    <div id='intro2'>
+    <div id="intro2">
         <img src="{% static 'lara.jpg' %}" alt="" class="cover1" >
     </div>
 </div>
@@ -72,11 +72,31 @@
         </p>
     </div>
     <div id="maketype">
-        <ul class="maketype1">
-            <li class="maketype2"><img  src="{% static 'maketype1.jpg' %}" alt="" ><p class="maketype3"> Bridal Makeover</p></li>
-            <li class="maketype2"><img  src="{% static 'maketype2.jpg' %}" alt="" > <p class="maketype3">Cocktail Makeover </p></li>
-            <li class="maketype2"><img  src="{% static 'maketype3.jpg' %}" alt="" > <p class="maketype3">Engagement Makeover </p></li>
-            <li class="maketype2"><img  src="{% static 'maketype4.jpg' %}" alt="" > <p class="maketype3">Mehndi Makeover </p></li>
+        <ul class="maketype1 ">
+            <li class="maketype2 inmake1">
+                <div class="inmake11">
+                    <img  src="{% static 'maketype1.jpg' %}" alt="" >
+                </div>
+                <p class="inmake12"> Bridal Makeover</p>
+            </li>
+            <li class="maketype2 inmake2">
+                <div class="inmake21">
+                    <img src="{% static 'maketype2.jpg' %}" alt="" >
+                </div>
+                <p class="inmake22">Cocktail Makeover </p>
+            </li>
+            <li class="maketype2 inmake3">
+                <div class="inmake31">
+                    <img src="{% static 'maketype3.jpg' %}" alt="" >
+                </div>
+                <p class="inmake32">Engagement Makeover </p>
+            </li>
+            <li class="maketype2 inmake3">
+                <div class="inmake41">
+                    <img src="{% static 'maketype4.jpg' %}" alt="" >
+                </div>
+                <p class="inmake42">Mehndi Makeover </p>
+            </li>
         </ul>
 
     </div>
@@ -389,13 +409,13 @@
   displayImage();
   displayDot();
 
-  var docWidth = document.documentElement.offsetWidth;
-
-[].forEach.call(document.querySelectorAll('*'), function (el) {
-  if (el.offsetWidth > docWidth) {
-    console.log(el);
+  var button1 = document.addEventListener("click", gotolink);
+  function gotolink(){
+    location.href = '/about';
   }
-})
+
+
+
 </script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
 

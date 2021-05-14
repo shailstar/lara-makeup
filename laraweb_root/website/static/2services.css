@@ -42,10 +42,97 @@ ul.maketype1{
 	list-style-type: none;
 	background-color: black;
 	width: 420px;
-	height: 450px;  
+	height: 420px;  
 }
-p.maketype3{
-	font-size: 25px;
-	text-align: center;
-	margin: 20px;
+
+.inmake1{
+	display: grid;
+	grid-template-rows: 80% 20%;
+}
+
+.inmake2{
+	display: grid;
+	grid-template-rows: 80% 20%;
+}
+
+.inmake3{
+	display: grid;
+	grid-template-rows: 80% 20%;
+}
+
+.inmake4{
+	display: grid;
+	grid-template-rows: 80% 20%;
+}
+
+.inmake11{
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.inmake12{
+	grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}
+.inmake11 > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.inmake21{
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
+.inmake22{
+	grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+.inmake21 > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.inmake31{
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
+.inmake32{
+	grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+.inmake31 > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.inmake41{
+	grid-row-start: 1;
+    grid-row-end: 2;
+}
+.inmake42{
+	grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+.inmake41 > img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
