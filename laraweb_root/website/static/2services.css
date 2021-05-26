@@ -1,10 +1,10 @@
 #services{
 	width: 100%;
-	height: 900px;
+	height: 100%
 	font-size:25px;
 	color: #fa82a7;
 	background-color: black; 
-	border: 2px solid transparent;
+	border: 0.1px solid transparent;
     position: relative;
 }
 
@@ -26,7 +26,13 @@
 }
 
 #services11 > h1{
+	font-size: 50px;
 	color: white;
+}
+
+#services11 > p{
+	font-size: 30px;
+	color: #fc3468;
 }
 
 #services12{
@@ -40,33 +46,275 @@
 	fill: #fc3468;
 }
 
-
-#maketype{
-	position: absolute;
-	background-color: #ffd5db;
-	top: 500px;
-	left: 80px;
-	right: 80px;
-}
-
-ul.maketype1{
+li.maketype11{
+	list-style-type: none;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 35px;
 	display: flex;
 	flex: 4;
-	margin: 30px;
-	padding: 0px;
-	align-items: center;
-	justify-content: space-around;
+	background-color: pink; 
+	border-radius: 160px; 
+	justify-content: space-between;
+	position: relative;
 }
 
- li.maketype2 {
-	margin:20px;
-	list-style-type: none;
-	background-color: black;
-	width: 420px;
-	height: 420px;  
+.maketype111, .maketype211, .maketype311, .maketype411{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 10px solid #fc3468;
+	z-index: 3;
 }
 
-.inmake1{
+.maketype112, .maketype212, .maketype312, .maketype412{
+	
+	height: 300px;
+	font-size: 22px;
+	color: black;
+
+}
+
+.makephoto{
+	height: 100%;
+    width: 100%;  
+	object-fit: cover;
+
+}
+
+.maketype11 > p{
+	color: white;
+}
+
+.maketype113, .maketype213, .maketype313, .maketype413{
+	display: none;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 10px solid #fc3468;
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+
+}
+
+.maketype114, .maketype214, .maketype314, .maketype414{
+	display: none;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 10px solid #fc3468;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+}
+
+
+.Drag1{
+	background: black;
+	border: 10px solid #fc3468;
+	border-radius: 50%;
+	box-sizing: border-box;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	transition: 0.4s ease;
+}
+
+.Drag1 > div{
+	background: #fff;
+	width: 90px;
+	height: 10px;
+	margin: 10px;
+	transition: 0.4s ease;
+}
+
+.Drag1 > div:first-child {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 25%;
+  bottom: 35%;
+}
+
+.Drag1 > div:nth-child(2) {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 45%;
+  bottom: 35%;
+}
+
+.Drag1 > div:nth-child(3) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 25%;
+  bottom: 54%;
+}
+
+.Drag1 > div:nth-child(4) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 45%;
+  bottom: 54%;
+}
+
+.Drag2{
+	background: black;
+	border: 10px solid #fc3468;
+	border-radius: 50%;
+	box-sizing: border-box;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	transition: 0.4s ease;
+}
+
+.Drag2 > div{
+	background: #fff;
+	width: 90px;
+	height: 10px;
+	margin: 10px;
+	transition: 0.4s ease;
+}
+
+.Drag2 > div:first-child {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 25%;
+  bottom: 35%;
+}
+
+.Drag2 > div:nth-child(2) {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 45%;
+  bottom: 35%;
+}
+
+.Drag2 > div:nth-child(3) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 25%;
+  bottom: 54%;
+}
+
+.Drag2 > div:nth-child(4) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 45%;
+  bottom: 54%;
+}
+
+.Drag3{
+	background: black;
+	border: 10px solid #fc3468;
+	border-radius: 50%;
+	box-sizing: border-box;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	transition: 0.4s ease;
+}
+
+.Drag3 > div{
+	background: #fff;
+	width: 90px;
+	height: 10px;
+	margin: 10px;
+	transition: 0.4s ease;
+}
+
+.Drag3 > div:first-child {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 25%;
+  bottom: 35%;
+}
+
+.Drag3 > div:nth-child(2) {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 45%;
+  bottom: 35%;
+}
+
+.Drag3 > div:nth-child(3) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 25%;
+  bottom: 54%;
+}
+
+.Drag3 > div:nth-child(4) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 45%;
+  bottom: 54%;
+}
+
+.Drag4{
+	background: black;
+	border: 10px solid #fc3468;
+	border-radius: 50%;
+	box-sizing: border-box;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	transition: 0.4s ease;
+}
+
+.Drag4 > div{
+	background: #fff;
+	width: 90px;
+	height: 10px;
+	margin: 10px;
+	transition: 0.4s ease;
+}
+
+.Drag4 > div:first-child {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 25%;
+  bottom: 35%;
+}
+
+.Drag4 > div:nth-child(2) {
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 45%;
+  bottom: 35%;
+}
+
+.Drag4 > div:nth-child(3) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 25%;
+  bottom: 54%;
+}
+
+.Drag4 > div:nth-child(4) {
+  position: absolute;
+  transform: rotate(45deg);
+  left: 45%;
+  bottom: 54%;
+}
+
+/*.Drag:hover div:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.Drag:hover div:nth-child(2) {
+  transform: rotate(45deg);
+}
+
+.Drag:hover div:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+.Drag:hover div:nth-child(4) {
+  transform: rotate(-45deg);
+}*/
+/*.inmake1{
 	display: grid;
 	grid-template-rows: 80% 20%;
 }
@@ -90,6 +338,8 @@ ul.maketype1{
 	overflow: hidden;
 	grid-row-start: 1;
     grid-row-end: 2;
+    border-radius: 50%;
+    overflow: hidden; 
 }
 
 .inmake12{
@@ -108,6 +358,8 @@ ul.maketype1{
 .inmake21{
 	grid-row-start: 1;
     grid-row-end: 2;
+    border-radius: 50%;
+    overflow: hidden; 
 }
 .inmake22{
 	grid-row-start: 2;
@@ -121,11 +373,15 @@ ul.maketype1{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 50%;
+    overflow: hidden; 
 }
 
 .inmake31{
 	grid-row-start: 1;
     grid-row-end: 2;
+    border-radius: 50%;
+    overflow: hidden; 
 }
 .inmake32{
 	grid-row-start: 2;
@@ -144,6 +400,8 @@ ul.maketype1{
 .inmake41{
 	grid-row-start: 1;
     grid-row-end: 2;
+    border-radius: 50%;
+    overflow: hidden; 
 }
 .inmake42{
 	grid-row-start: 2;
@@ -157,4 +415,4 @@ ul.maketype1{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}
+}*/

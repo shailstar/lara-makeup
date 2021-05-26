@@ -140,10 +140,10 @@ transition:
 }
 
 #intro2:hover{
-	border-top: 14px solid #b9a057;
-    border-right: 14px solid #b9a057;
-    border-bottom: 14px solid #b9a057;
-    border-left: 14px solid #b9a057;
+	border-top: 14px solid #fc3468;
+    border-right: 14px solid #fc3468;
+    border-bottom: 14px solid #fc3468;
+    border-left: 14px solid #fc3468;
     transition: border-top 3s linear, border-right 1ss linear 0.15s, border-bottom 1ss linear 1s, border-left 1s linear 0.15s;
 }
 
