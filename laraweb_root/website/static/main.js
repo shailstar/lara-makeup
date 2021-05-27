@@ -136,39 +136,47 @@ function me0 (){
     let slidy2 = document.getElementsByClassName('maketype113');
     let slidy3 = document.getElementsByClassName('maketype114');
     let slidy4 = document.getElementsByClassName('maketype11');
+    let slidy5 = document.getElementsByClassName('maketype115');
     console.log(slidy1);
     console.log(slidy2);
     console.log(slidy2);
     slidy1[0].style.display = 'none';
     slidy2[0].style.display = 'block';
     slidy3[0].style.display = 'block';
+    slidy5[0].style.display = 'block';
     slidy4[0].style.backgroundColor = 'transparent';
     anime({
       targets: '.maketype113',
-      left: '375px',
+      left: '330px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype114',
-      left: '725px',
+      left: '660px',
       easing: 'easeInOutQuad'
     }); 
+    anime({
+      targets: '.maketype115',
+      left: '990px',
+      easing: 'easeInOutQuad'
+    });
     anime({
       targets: '.Drag1',
       scale: {
         value: 0.2,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 180,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
       translateX: {
-        value: -300,
-        duration: 500,
-        easing: 'easeInOutQuad'
+        value: -500,
+        duration: 100,
+        delay: 500,
+        easing: 'linear'
       }
     }); 
     o1click++;
@@ -178,6 +186,7 @@ function me0 (){
     let slidy1 = document.getElementsByClassName('maketype112');
     let slidy2 = document.getElementsByClassName('maketype113');
     let slidy3 = document.getElementsByClassName('maketype114');
+    let slidy5 = document.getElementsByClassName('maketype115');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -185,32 +194,41 @@ function me0 (){
     slidy1[0].style.display = 'block';
     slidy2[0].style.display = 'none';
     slidy3[0].style.display = 'none';
+    slidy5[0].style.display = 'none';
     slidy4[0].style.backgroundColor = 'pink';
     anime({
       targets: '.maketype113',
-      left: '-375px',
+      left: '-330px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype114',
-      left: '-725px',
+      left: '-660px',
       easing: 'easeInOutQuad'
     });
+    anime({
+      targets: '.maketype115',
+      left: '-990px',
+      easing: 'easeInOutQuad'
+    });
+
     anime({
       targets: '.Drag1',
       scale: {
         value: 1,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 0,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
       translateX: {
         value: 0,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       }
     });
@@ -226,6 +244,7 @@ function me1 (){
     let slidy1 = document.getElementsByClassName('maketype212');
     let slidy2 = document.getElementsByClassName('maketype213');
     let slidy3 = document.getElementsByClassName('maketype214');
+    let slidy5 = document.getElementsByClassName('maketype215');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -233,29 +252,41 @@ function me1 (){
     slidy1[0].style.display = 'none';
     slidy2[0].style.display = 'block';
     slidy3[0].style.display = 'block';
+    slidy5[0].style.display = 'block';
     slidy4[1].style.backgroundColor = 'transparent';
     anime({
       targets: '.maketype213',
-      left: '375px',
+      left: '330px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype214',
-      left: '725px',
+      left: '660px',
       easing: 'easeInOutQuad'
     }); 
+    anime({
+      targets: '.maketype215',
+      left: '990px',
+      easing: 'easeInOutQuad'
+    });
     anime({
       targets: '.Drag2',
       scale: {
         value: 0.2,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 180,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
+      translateX: {
+        value: -500,
+        duration: 100,
+        delay: 500,
+        easing: 'linear'
+      }
     });
     o2click++;
   }else if(o2click%2 == 1){
@@ -264,6 +295,7 @@ function me1 (){
     let slidy1 = document.getElementsByClassName('maketype212');
     let slidy2 = document.getElementsByClassName('maketype213');
     let slidy3 = document.getElementsByClassName('maketype214');
+    let slidy5 = document.getElementsByClassName('maketype215');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -271,29 +303,42 @@ function me1 (){
     slidy1[0].style.display = 'block';
     slidy2[0].style.display = 'none';
     slidy3[0].style.display = 'none';
+    slidy5[0].style.display = 'none';
     slidy4[1].style.backgroundColor = 'pink';
     anime({
       targets: '.maketype213',
-      left: '-375px',
+      left: '-330px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype214',
-      left: '-725px',
+      left: '-660px',
+      easing: 'easeInOutQuad'
+    });
+    anime({
+      targets: '.maketype215',
+      left: '-990px',
       easing: 'easeInOutQuad'
     });
     anime({
       targets: '.Drag2',
       scale: {
         value: 1,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 0,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
+      translateX: {
+        value: 0,
+        duration: 100,
+        easing: 'easeInOutQuad'
+      }
     });
     o2click++;    
   }
@@ -355,6 +400,7 @@ function me2 (){
     let slidy1 = document.getElementsByClassName('maketype312');
     let slidy2 = document.getElementsByClassName('maketype313');
     let slidy3 = document.getElementsByClassName('maketype314');
+    let slidy5 = document.getElementsByClassName('maketype315');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -362,29 +408,41 @@ function me2 (){
     slidy1[0].style.display = 'none';
     slidy2[0].style.display = 'block';
     slidy3[0].style.display = 'block';
+    slidy5[0].style.display = 'block';
     slidy4[2].style.backgroundColor = 'transparent';
     anime({
       targets: '.maketype313',
-      left: '375px',
+      left: '330px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype314',
-      left: '725px',
+      left: '660px',
       easing: 'easeInOutQuad'
     }); 
+    anime({
+      targets: '.maketype315',
+      left: '990px',
+      easing: 'easeInOutQuad'
+    });
     anime({
       targets: '.Drag3',
       scale: {
         value: 0.2,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 180,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
+      translateX: {
+        value: -500,
+        duration: 100,
+        delay: 500,
+        easing: 'linear'
+      }
     });
     o3click++;
   }else if(o3click%2 == 1){
@@ -393,6 +451,7 @@ function me2 (){
     let slidy1 = document.getElementsByClassName('maketype312');
     let slidy2 = document.getElementsByClassName('maketype313');
     let slidy3 = document.getElementsByClassName('maketype314');
+    let slidy5 = document.getElementsByClassName('maketype315');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -400,29 +459,42 @@ function me2 (){
     slidy1[0].style.display = 'block';
     slidy2[0].style.display = 'none';
     slidy3[0].style.display = 'none';
+    slidy5[0].style.display = 'none';
     slidy4[2].style.backgroundColor = 'pink';
     anime({
       targets: '.maketype313',
-      left: '-375px',
+      left: '-335px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype314',
-      left: '-725px',
+      left: '-660px',
+      easing: 'easeInOutQuad'
+    });
+    anime({
+      targets: '.maketype315',
+      left: '-990px',
       easing: 'easeInOutQuad'
     });
     anime({
       targets: '.Drag3',
       scale: {
         value: 1,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 0,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
+      translateX: {
+        value: 0,
+        duration: 100,
+        easing: 'easeInOutQuad'
+      }
     });
     o3click++;    
   }
@@ -484,6 +556,7 @@ function me3 (){
     let slidy1 = document.getElementsByClassName('maketype412');
     let slidy2 = document.getElementsByClassName('maketype413');
     let slidy3 = document.getElementsByClassName('maketype414');
+    let slidy5 = document.getElementsByClassName('maketype415');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -491,29 +564,41 @@ function me3 (){
     slidy1[0].style.display = 'none';
     slidy2[0].style.display = 'block';
     slidy3[0].style.display = 'block';
+    slidy5[0].style.display = 'block';
     slidy4[3].style.backgroundColor = 'transparent';
     anime({
       targets: '.maketype413',
-      left: '375px',
+      left: '330px',
+      easing: 'easeInOutQuad'
+    });
+    anime({
+      targets: '.maketype414',
+      left: '660px',
       easing: 'easeInOutQuad'
     }); 
     anime({
-      targets: '.maketype414',
-      left: '725px',
+      targets: '.maketype415',
+      left: '990px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.Drag4',
       scale: {
         value: 0.2,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 180,
-        duration: 500,
+        duration: 100,
         easing: 'easeInOutQuad'
       },
+      translateX: {
+        value: -500,
+        duration: 100,
+        delay: 500,
+        easing: 'linear'
+      }
     });
     o4click++;
   }else if(o4click%2 == 1){
@@ -522,6 +607,7 @@ function me3 (){
     let slidy1 = document.getElementsByClassName('maketype412');
     let slidy2 = document.getElementsByClassName('maketype413');
     let slidy3 = document.getElementsByClassName('maketype414');
+    let slidy5 = document.getElementsByClassName('maketype415');
     let slidy4 = document.getElementsByClassName('maketype11');
     console.log(slidy1);
     console.log(slidy2);
@@ -529,29 +615,42 @@ function me3 (){
     slidy1[0].style.display = 'block';
     slidy2[0].style.display = 'none';
     slidy3[0].style.display = 'none';
+    slidy5[0].style.display = 'none';
     slidy4[3].style.backgroundColor = 'pink';
     anime({
       targets: '.maketype413',
-      left: '-375px',
+      left: '-330px',
       easing: 'easeInOutQuad'
     }); 
     anime({
       targets: '.maketype414',
-      left: '-725px',
+      left: '-660px',
       easing: 'easeInOutQuad'
     });
+    anime({
+      targets: '.maketype415',
+      left: '-990px',
+      easing: 'easeInOutQuad'
+    });     
     anime({
       targets: '.Drag4',
       scale: {
         value: 1,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
       rotate: {
         value: 0,
-        duration: 500,
+        duration: 100,
+        delay: 500,
         easing: 'easeInOutQuad'
       },
+      translateX: {
+        value: 0,
+        duration: 100,
+        easing: 'easeInOutQuad'
+      }
     });
     o4click++;    
   }

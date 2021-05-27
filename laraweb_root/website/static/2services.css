@@ -4,6 +4,7 @@
 	font-size:25px;
 	color: #fa82a7;
 	background-color: black; 
+	box-sizing: border-box;
 	border: 0.1px solid transparent;
     position: relative;
 }
@@ -52,7 +53,7 @@ li.maketype11{
 	margin-bottom: 25px;
 	margin-right: 35px;
 	display: flex;
-	flex: 4;
+	flex: 5;
 	background-color: pink; 
 	border-radius: 160px; 
 	justify-content: space-between;
@@ -65,7 +66,7 @@ li.maketype11{
 	border-radius: 50%;
 	overflow: hidden;
 	border: 10px solid #fc3468;
-	z-index: 3;
+	z-index: 4;
 }
 
 .maketype112, .maketype212, .maketype312, .maketype412{
@@ -95,11 +96,22 @@ li.maketype11{
 	border: 10px solid #fc3468;
 	overflow: hidden;
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 
 }
 
-.maketype114, .maketype214, .maketype314, .maketype414{
+.maketype114, .maketype214, .maketype314, .maketype414 {
+	display: none;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 10px solid #fc3468;
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+}
+
+.maketype115,.maketype215, .maketype315, .maketype415 {
 	display: none;
 	height: 300px;
 	width: 300px;
