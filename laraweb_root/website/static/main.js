@@ -122,10 +122,7 @@ q[0].addEventListener('click', me1);
 r[0].addEventListener('click', me2); 
 s[0].addEventListener('click', me3);
 
-// slidy[0].addEventListener('click', me4); 
-// slidy[1].addEventListener("mouseout", me5); 
-// slidy[2].addEventListener("mouseout", me6); 
-// slidy[3].addEventListener("mouseout", me7);
+
  
 let o1click = 0;
 function me0 (){
@@ -344,53 +341,6 @@ function me1 (){
   }
 }
 
-// function me1 (){
-//   let slidy1 = document.getElementsByClassName('maketype212');
-//   let slidy2 = document.getElementsByClassName('maketype213');
-//   let slidy3 = document.getElementsByClassName('maketype214');
-//   let slidy4 = document.getElementsByClassName('maketype11');
-//   console.log(slidy1);
-//   console.log(slidy2);
-//   console.log(slidy2);
-//   slidy1[0].style.display = 'none';
-//   slidy2[0].style.display = 'block';
-//   slidy3[0].style.display = 'block';
-//   slidy4[1].style.backgroundColor = 'transparent'; 
-//   anime({
-//     targets: '.maketype213',
-//     left: '375px',
-//     easing: 'easeInOutQuad'
-//   }); 
-//   anime({
-//     targets: '.maketype214',
-//     left: '725px',
-//     easing: 'easeInOutQuad'
-//   }); 
-// }
-
-// function me5 (){
-//   let slidy1 = document.getElementsByClassName('maketype212');
-//   let slidy2 = document.getElementsByClassName('maketype213');
-//   let slidy3 = document.getElementsByClassName('maketype214');
-//   let slidy4 = document.getElementsByClassName('maketype11');
-//   console.log(slidy1);
-//   console.log(slidy2);
-//   console.log(slidy2);
-//   slidy1[0].style.display = 'block';
-//   slidy2[0].style.display = 'none';
-//   slidy3[0].style.display = 'none';
-//   slidy4[1].style.backgroundColor = 'pink'; 
-//   anime({
-//     targets: '.maketype213',
-//     left: '-375px',
-//     easing: 'easeInOutQuad'
-//   }); 
-//   anime({
-//     targets: '.maketype214',
-//     left: '-725px',
-//     easing: 'easeInOutQuad'
-//   });   
-// }
 
 let o3click = 0;
 function me2 (){
@@ -500,53 +450,6 @@ function me2 (){
   }
 }
 
-// function me2 (){
-//   let slidy1 = document.getElementsByClassName('maketype312');
-//   let slidy2 = document.getElementsByClassName('maketype313');
-//   let slidy3 = document.getElementsByClassName('maketype314');
-//   let slidy4= document.getElementsByClassName('maketype11');
-//   console.log(slidy1);
-//   console.log(slidy2);
-//   console.log(slidy2);
-//   slidy1[0].style.display = 'none';
-//   slidy2[0].style.display = 'block';
-//   slidy3[0].style.display = 'block';
-//   slidy4[2].style.backgroundColor = 'transparent'; 
-//   anime({
-//     targets: '.maketype313',
-//     left: '375px',
-//     easing: 'easeInOutQuad'
-//   }); 
-//   anime({
-//     targets: '.maketype314',
-//     left: '725px',
-//     easing: 'easeInOutQuad'
-//   });   
-// }
-
-// function me6 (){
-//   let slidy1 = document.getElementsByClassName('maketype312');
-//   let slidy2 = document.getElementsByClassName('maketype313');
-//   let slidy3 = document.getElementsByClassName('maketype314');
-//   let slidy4= document.getElementsByClassName('maketype11');
-//   console.log(slidy1);
-//   console.log(slidy2);
-//   console.log(slidy2);
-//   slidy1[0].style.display = 'block';
-//   slidy2[0].style.display = 'none';
-//   slidy3[0].style.display = 'none';
-//   slidy4[2].style.backgroundColor = 'pink';
-//   anime({
-//     targets: '.maketype313',
-//     left: '-375px',
-//     easing: 'easeInOutQuad'
-//   }); 
-//   anime({
-//     targets: '.maketype314',
-//     left: '-725px',
-//     easing: 'easeInOutQuad'
-//   });     
-// }
 
 let o4click = 0;
 function me3 (){
@@ -656,70 +559,71 @@ function me3 (){
   }
 }
 
-// function me3 (){
-//   let slidy1 = document.getElementsByClassName('maketype412');
-//   let slidy2 = document.getElementsByClassName('maketype413');
-//   let slidy3 = document.getElementsByClassName('maketype414');
-//   let slidy4 = document.getElementsByClassName('maketype11');
-//   console.log(slidy1);
-//   console.log(slidy2);
-//   console.log(slidy2);
-//   slidy1[0].style.display = 'none';
-//   slidy2[0].style.display = 'block';
-//   slidy3[0].style.display = 'block';
-//   slidy4[3].style.backgroundColor = 'transparent'; 
-//   anime({
-//     targets: '.maketype413',
-//     left: '375px',
-//     easing: 'easeInOutQuad'
-//   }); 
-//   anime({
-//     targets: '.maketype414',
-//     left: '725px',
-//     easing: 'easeInOutQuad'
-//   });   
-// }
 
-// function me7 (){
-//   let slidy1 = document.getElementsByClassName('maketype412');
-//   let slidy2 = document.getElementsByClassName('maketype413');
-//   let slidy3 = document.getElementsByClassName('maketype414');
-//   let slidy4 = document.getElementsByClassName('maketype11');
-//   console.log(slidy1);
-//   console.log(slidy2);
-//   console.log(slidy2);
-//   slidy1[0].style.display = 'block';
-//   slidy2[0].style.display = 'none';
-//   slidy3[0].style.display = 'none';
-//   slidy4[3].style.backgroundColor = 'pink'; 
-//   anime({
-//     targets: '.maketype413',
-//     left: '-375px',
-//     easing: 'easeInOutQuad'
-//   }); 
-//   anime({
-//     targets: '.maketype414',
-//     left: '-725px',
-//     easing: 'easeInOutQuad'
-//   });   
-// }
-// let slideIndex = 0;
-// let profileImages = document.getElementsByClassName('cover1');
-// console.log(profileImages.length);
-// function crouselPrfoile(){
-//   for(let i = 0; i < profileImages.length; i++){
-//     profileImages[i].style.display = "none";
-//   }
-//   slideIndex++;
-//   if (slideIndex > profileImages.length){
-//     slideIndex = 1;
-//   }
-//   profileImages[slideIndex-1].style.display = "block";
-// };
-// crouselPrfoile();
-// setInterval(crouselPrfoile, 5000);
+VanillaTilt.init(document.querySelector(".Slide"),{
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1
+});
 
+VanillaTilt.init(document.querySelector("#pricing211"),{
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 0.2
+});
+VanillaTilt.init(document.querySelector("#pricing212"),{
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1
+});
+VanillaTilt.init(document.querySelector("#pricing213"),{
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1
+});
 
+VanillaTilt.init(document.querySelector("#item-a"),{
+    max: 25,
+    speed: 400
+});
 
+VanillaTilt.init(document.querySelector("#item-b"),{
+    max: 25,
+    speed: 400
+});
+
+VanillaTilt.init(document.querySelector("#item-c"),{
+    max: 25,
+    speed: 400
+});
+
+VanillaTilt.init(document.querySelector("#item-d"),{
+    max: 25,
+    speed: 400
+});
+
+VanillaTilt.init(document.querySelector("#item-e"),{
+    max: 25,
+    speed: 400
+});
+
+VanillaTilt.init(document.querySelector("#item-1"),{
+    max: 25,
+    speed: 400
+});
+
+VanillaTilt.init(document.querySelector("#item-2"),{
+    max: 25,
+    speed: 400
+});
+
+VanillaTilt.init(document.querySelector("#item-3"),{
+    max: 25,
+    speed: 400
+});
 
 
