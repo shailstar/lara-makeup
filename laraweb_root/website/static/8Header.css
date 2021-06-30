@@ -69,9 +69,9 @@ header{
 		font-size: 5px;
 	}
 	#logo > img{
-		width: 35vh;
+		width: 55vw;
 	}
-	button{
+	.navbutton{
 		width: 7vh;
 		font-size: 25px;
 		padding-bottom:  10px;
@@ -134,13 +134,12 @@ header{
 		flex-direction: row;
 		margin: 0px;
 		padding-left: 0px;
-
-
+		
 	}
 	#logo > img{
-		width: 35vh;
+		width: 55vw;
 	}
-	button{
+	.navbutton{
 		width: 7vh;
 		font-size: 25px;
 		padding-bottom:  10px;
