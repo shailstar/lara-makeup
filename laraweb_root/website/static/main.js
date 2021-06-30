@@ -1,27 +1,25 @@
+let navbut = document.querySelector(".navbutton");
+let navmenu = document.querySelector("#left-m");
+navbut.addEventListener('click', function(){
+  if(navbut.textContent == "☰"){
+    navbut.textContent = "🞬";
+    navmenu.style.display = "block";
+  }else{
+    navbut.textContent = "☰";
+    navmenu.style.display = "none";
+
+  }
+})
+
+
 /*readmore button*/
+
 let rdmr = document.querySelector('.onc');
 rdmr.addEventListener('click', function(){
   location.href = '/about';
 })
 
-  /* only execute this script when the document is ready */
 
-
-$(document).ready(function(){
-  /* function called when you click of the button */
-  $(".navbutton").click(function(){
-
-      /* this if else to change the text in the button */
-      if($(".navbutton").text() == "☰"){
-       $(".navbutton").text("🞬");
-      }else{
-        $(".navbutton").text("☰");
-      }
-
-    /* this function toggle the visibility of our "li" elements */
-    $("li").toggle("slow");
-  });
-});
 var carouselSlides = document.getElementsByClassName("Slide");
 var dotNode = document.getElementsByClassName("fa fa-circle");
 var currentIndex = 0;

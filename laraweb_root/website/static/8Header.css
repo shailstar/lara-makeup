@@ -1,104 +1,368 @@
-@media only screen and (max-width: 800px) {
-	nav.desktop{
-		display: none;
-	}
-	nav.mobile{
-		font-family: 'Berkshire Swash', cursive;
-		display: flex;
-	    flex-direction: column;
-    }
-    ul{
-    	flex-direction: column;
-    }
-    button{
-    	color: white;
-    	background: black;
-    	border: none;
-    }
-	#left-m{
-		margin: 0px;
-		padding-left: 0px;
-	}
-	#logo-m{
-		padding: 10px;
-		flex-direction: row;
-		margin: 0px;
-		padding-left: 0px;
-	}
-
-	#right-m{
-		margin-top: 0px;
-		padding-left: 0px;
-	}
+* {
+  box-sizing: border-box;
 }
-
-
 
 header{
 	width: 100%;
 }
 
-a.line {
-  background:
-     linear-gradient(
-       to bottom, var(--mainColor) 0%,
-       var(--mainColor) 100%
-     );
-  background-position: 0 100%;
-  background-repeat: repeat-x;
-  background-size: 4px 1px;
-  color: white;
-  text-decoration: none;
-  transition: background-size .5s;
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 400px) {
+	nav.desktop{
+		display: none;
+	}
+
+	a.line {
+	  background:
+	     linear-gradient(
+	       to bottom, var(--mainColor) 0%,
+	       var(--mainColor) 100%
+	     );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 1px;
+	  color: white;
+	  text-decoration: none;
+	  transition: background-size .5s;
+	}
+
+	a:hover {
+	  background-size: 4px 50px;
+	}
+
+	nav.mobile{
+		display: flex;
+		font-family: 'Berkshire Swash', cursive;
+	  flex-direction: column;
+   }
+
+  nav > ul  {
+		display: flex;
+		background-color: black; 
+		flex: 3;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+
+  button{
+  	color: white;
+  	background: black;
+  	border: none;
+  }
+	#left-m{
+		display: none;
+		margin: 0px;
+		padding-left: 0px;
+		text-align: center;
+	}
+	#logo-m{
+		padding-top: 10px;
+		padding-bottom: 2px;
+		flex-direction: row;
+		margin: 0px;
+		padding-left: 0px;
+		font-size: 5px;
+	}
+	#logo > img{
+		width: 35vh;
+	}
+	button{
+		width: 7vh;
+		font-size: 25px;
+		padding-bottom:  10px;
+	}
 }
 
-a:hover {
-  background-size: 4px 50px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+	nav.desktop{
+		display: none;
+	}
+
+	a.line {
+	  background:
+	     linear-gradient(
+	       to bottom, var(--mainColor) 0%,
+	       var(--mainColor) 100%
+	     );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 1px;
+	  color: white;
+	  text-decoration: none;
+	  transition: background-size .5s;
+	}
+
+	a:hover {
+	  background-size: 4px 50px;
+	}
+
+	nav.mobile{
+		display: flex;
+		font-family: 'Berkshire Swash', cursive;
+	  flex-direction: column;
+   }
+
+  nav > ul  {
+		display: flex;
+		background-color: black; 
+		flex: 3;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+
+  button{
+  	color: white;
+  	background: black;
+  	border: none;
+  }
+	#left-m{
+		display: none;
+		margin: 0px;
+		padding-left: 0px;
+		text-align: center;
+	}
+	#logo-m{
+		padding-top: 10px;
+		padding-bottom: 2px;
+		flex-direction: row;
+		margin: 0px;
+		padding-left: 0px;
+
+
+	}
+	#logo > img{
+		width: 35vh;
+	}
+	button{
+		width: 7vh;
+		font-size: 25px;
+		padding-bottom:  10px;
+	}
 }
 
-nav{
-	height: 96px;
-	font-family: 'Berkshire Swash', cursive;
-	font-size: 20px; 
-	display: flex;
-	width: 100%;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+			a.line {
+	  background:
+	     linear-gradient(
+	       to bottom, var(--mainColor) 0%,
+	       var(--mainColor) 100%
+	     );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 1px;
+	  color: white;
+	  text-decoration: none;
+	  transition: background-size .5s;
+	}
+
+	a:hover {
+	  background-size: 4px 50px;
+	}
+
+	nav.desktop{
+		height: 96px;
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 2vw; 
+		display: flex;
+		width: 100%;
+	}
+
+	nav > ul  {
+		display: flex;
+		background-color: black; 
+		flex: 3;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+
+	nav > li {
+		margin:20px;
+		list-style-type: none;
+	}
+
+	#intro2 > img{
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	#left-d{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#logo-d{
+		margin-top: 0px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+
+	#logoimg{
+		width: 25vw;
+	}
+
+	#right-d{
+		margin-top: 0px;
+		padding-left: 0px;
+		padding-right:40px;
+		margin-bottom: 0px;
+	}
+
+	nav.mobile{
+		display: none;
+	}
 }
 
-nav > ul  {
-	display: flex;
-	background-color: black; 
-	flex: 3;
-	align-items: center;
-	justify-content: space-around;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+		a.line {
+	  background:
+	     linear-gradient(
+	       to bottom, var(--mainColor) 0%,
+	       var(--mainColor) 100%
+	     );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 1px;
+	  color: white;
+	  text-decoration: none;
+	  transition: background-size .5s;
+	}
+
+	a:hover {
+	  background-size: 4px 50px;
+	}
+
+	nav.desktop{
+		height: 96px;
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 1.7vw; 
+		display: flex;
+		width: 100%;
+	}
+
+	nav > ul  {
+		display: flex;
+		background-color: black; 
+		flex: 3;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+
+	nav > li {
+		margin:20px;
+		list-style-type: none;
+	}
+
+	#intro2 > img{
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	#left-d{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#logo-d{
+		margin-top: 0px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+
+	#logoimg{
+		width: 25vw;
+	}
+
+	#right-d{
+		margin-top: 0px;
+		padding-left: 0px;
+		padding-right:40px;
+		margin-bottom: 0px;
+	}
+
+	nav.mobile{
+		display: none;
+	}
 }
 
-nav > li {
-	margin:20px;
-	list-style-type: none
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	a.line {
+	  background:
+	     linear-gradient(
+	       to bottom, var(--mainColor) 0%,
+	       var(--mainColor) 100%
+	     );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 1px;
+	  color: white;
+	  text-decoration: none;
+	  transition: background-size .5s;
+	}
 
-#intro2 > img{
-	max-height: 100%;
-	max-width: 100%;
-}
+	a:hover {
+	  background-size: 4px 50px;
+	}
 
-#left-d{
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-#logo-d{
-	margin-top: 0px;
-	padding-left: 0px;
-	margin-bottom: 0px;
-}
+	nav.desktop{
+		height: 96px;
+		font-family: 'Berkshire Swash', cursive;
+		font-size: 20px; 
+		display: flex;
+		width: 100%;
+	}
 
-#right-d{
-	margin-top: 0px;
-	padding-left: 0px;
-	padding-right:40px;
-	margin-bottom: 0px;
-}
+	nav > ul  {
+		display: flex;
+		background-color: black; 
+		flex: 3;
+		align-items: center;
+		justify-content: space-around;
+		list-style-type: none;
+		flex-direction: row;
+	}
 
-nav.mobile{
-	display: none;
+	nav > li {
+		margin:20px;
+		
+	}
+
+	#intro2 > img{
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	#left-d{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#logo-d{
+		margin-top: 0px;
+		padding-left: 0px;
+		margin-bottom: 0px;
+	}
+
+	#logoimg{
+		width: 20vw;
+	}
+
+	#right-d{
+		margin-top: 0px;
+		padding-left: 0px;
+		padding-right:40px;
+		margin-bottom: 0px;
+	}
+
+	nav.mobile{
+		display: none;
+	}
 }
