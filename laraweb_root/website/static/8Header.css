@@ -16,15 +16,38 @@ header{
 		display: none;
 	}
 
+	a.line {
+	  background:
+	     linear-gradient(
+	       to bottom, var(--mainColor) 0%,
+	       var(--mainColor) 100%
+	     );
+	  background-position: 0 100%;
+	  background-repeat: repeat-x;
+	  background-size: 4px 1px;
+	  color: white;
+	  text-decoration: none;
+	  transition: background-size .5s;
+	}
+
+	a:hover {
+	  background-size: 4px 50px;
+	}
+
 	nav.mobile{
 		display: flex;
 		font-family: 'Berkshire Swash', cursive;
 	  flex-direction: column;
    }
 
-  ul{
-  	flex-direction: column;
-  }
+  nav > ul  {
+		display: flex;
+		background-color: black; 
+		flex: 3;
+		align-items: center;
+		justify-content: space-around;
+		flex-direction: column;
+	}
 
   button{
   	color: white;
@@ -39,21 +62,24 @@ header{
 	}
 	#logo-m{
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 2px;
 		flex-direction: row;
 		margin: 0px;
 		padding-left: 0px;
+		font-size: 5px;
 	}
 	#logo > img{
-		width: 75vh;
+		width: 35vh;
 	}
 	button{
 		width: 7vh;
+		font-size: 25px;
+		padding-bottom:  10px;
 	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 400px) {
 	nav.desktop{
 		display: none;
 	}
@@ -104,16 +130,20 @@ header{
 	}
 	#logo-m{
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 2px;
 		flex-direction: row;
 		margin: 0px;
 		padding-left: 0px;
+
+
 	}
 	#logo > img{
-		width: 75vh;
+		width: 35vh;
 	}
 	button{
 		width: 7vh;
+		font-size: 25px;
+		padding-bottom:  10px;
 	}
 }
 
@@ -151,6 +181,7 @@ header{
 		flex: 3;
 		align-items: center;
 		justify-content: space-around;
+		flex-direction: row;
 	}
 
 	nav > li {
@@ -223,6 +254,7 @@ header{
 		flex: 3;
 		align-items: center;
 		justify-content: space-around;
+		flex-direction: row;
 	}
 
 	nav > li {
@@ -296,6 +328,7 @@ header{
 		align-items: center;
 		justify-content: space-around;
 		list-style-type: none;
+		flex-direction: row;
 	}
 
 	nav > li {
