@@ -356,18 +356,19 @@ body{
 @media only screen and (max-width: 450px) {
     #intro{
         grid-template-columns: 100%;
-        grid-template-rows: 65% 25%;
+        grid-template-rows: 325px 550px;
     }
     #intro1{
-        font-size: 3vw;
+        font-size: 22px;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
+        text-align: center;
         justify-content: center;
         align-self: center;
         justify-self: center;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom: 30px;
     }
     #intro2{
@@ -379,6 +380,10 @@ body{
         grid-row-end: 2;
         align-self: center;
         justify-self: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 2px;
     }
 }
 
