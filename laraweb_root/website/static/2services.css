@@ -64,8 +64,8 @@
 	}
 
 	.maketype111, .maketype211, .maketype311, .maketype411{
-		width: 300px;
-		height: 300px;
+		width: 320px;
+		height: 320px;
 		border-radius: 50%;
 		overflow: hidden;
 		border: 10px solid #fc3468;
@@ -75,7 +75,7 @@
 	.maketype112, .maketype212, .maketype312, .maketype412{
 		
 		height: 300px;
-		font-size: 22px;
+		font-size: 20px;
 		color: black;
 
 	}
@@ -380,8 +380,8 @@
 	}
 
 	.maketype111, .maketype211, .maketype311, .maketype411{
-		width: 300px;
-		height: 300px;
+		width: 320px;
+		height: 320px;
 		border-radius: 50%;
 		overflow: hidden;
 		border: 10px solid #fc3468;
@@ -391,7 +391,7 @@
 	.maketype112, .maketype212, .maketype312, .maketype412{
 		
 		height: 300px;
-		font-size: 22px;
+		font-size: 1.6vw;
 		color: black;
 
 	}
@@ -632,20 +632,176 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {...}
+@media only screen and (max-width: 992px) {
+	#services1{
+		grid-template-columns: 75% 25%;
+	}
+	#services11{
+		padding: 10px;
+	}
+
+	#services11 > h1{
+		font-size: 36px;
+	}
+
+	#services11 > p{
+		font-size: 25px;;
+	}
+
+
+	#Layer_1{
+		width: 20vw;
+	}
+
+	.maketype111, .maketype211, .maketype311, .maketype411 {
+    width: 200px;
+    height: 200px;
+  }
+	.maketype112, .maketype212, .maketype312, .maketype412 {
+	    height: 200px;
+	    font-size: 12px;
+	    color: black;
+	}
+  .Drag1, .Drag2, .Drag3, .Drag4{
+  	width: 200px;
+  	height: 200px;
+  }
+
+  .Drag1 > div{
+  	width: 55px;
+  	height: 6px;
+  }
+
+  .Drag2 > div{
+  	width: 55px;
+  	height: 6px;
+  }
+
+  .Drag3 > div{
+  	width: 55px;
+  	height: 6px;
+  }
+
+  .Drag4 > div{
+  	width: 55px;
+  	height: 6px;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {...}
+@media only screen and (max-width: 768px) {
+	#services11 > h1 {
+	    font-size: 30px;
+	}
+	#services11 > p {
+	    font-size: 25px;
+	}
+	.maketype111, .maketype211, .maketype311, .maketype411 {
+    width: 170px;
+    height: 170px;
+  }
+	.maketype112, .maketype212, .maketype312, .maketype412 {
+	    height: 170px;
+	    font-size: 12px;
+	    color: black;
+	}
+  .Drag1, .Drag2, .Drag3, .Drag4{
+  	width: 170px;
+  	height: 170px;
+  }
+
+  .Drag1 > div{
+  	width: 46px;
+  	height: 6px;
+  }
+
+  .Drag2 > div{
+  	width: 46px;
+  	height: 6px;
+  }
+
+  .Drag3 > div{
+  	width: 46px;
+  	height: 6px;
+  }
+
+  .Drag4 > div{
+  	width: 46px;
+  	height: 6px;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {...}
+@media only screen and (max-width: 600px) {
+	#services1{
+		grid-template-columns: 100%;
+	  grid-template-rows: 50% 50%;
+	}
+	#services11{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		text-align: center;
+	}
+	#services12{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		justify-self: center;
+		padding-top: 20px;
+	}
+
+	#Layer_1 {
+	    width: 40vw;
+	}
+	.maketype1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	li.maketype11{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 280px 300px;
+		justify-items: center;
+		height: 450px;
+		width: 280px;
+		border-radius: 140px;
+	}
+
+	.maketype111, .maketype211, .maketype311, .maketype411 {
+		  grid-row-start: 1;
+		  grid-row-end: 2;
+	    width: 280px;
+	    height: 280px;
+	}
+	.maketype112, .maketype212, .maketype312, .maketype412 {
+		  grid-row-start: 2;
+		  grid-row-end: 3;
+		  font-size:  15px;
+		  text-align: center;
+	}
+
+
+
+	.maketype116, .maketype216, .maketype316, .maketype416{
+		display:  none;
+	}
+
+}
 
 @media only screen and (max-width: 450px) {
 	#services1{
-		margin: 35px;
+		margin-top: 80px;
+		margin-left: 5px;
+		margin-right:  5px;
+		margin-bottom: 5px;
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: 30% 70%;
+		grid-template-rows: 40% 60%;
 	}
 	#services11{
 		grid-column-start: 1;
@@ -660,7 +816,6 @@
 		font-size: 36px;
 	}
 
-	}
 
 	#services12{
 		grid-column-start: 1;
@@ -674,6 +829,43 @@
 		width: 60vw;
 	}
 
+	li.maketype11{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 280px 300px;
+		justify-items: center;
+		height: 450px;
+		width: 280px;
+		border-radius: 140px;
+	}
+
+	.maketype111, .maketype211, .maketype311, .maketype411 {
+		  grid-row-start: 1;
+		  grid-row-end: 2;
+	    width: 280px;
+	    height: 280px;
+	}
+	.maketype112, .maketype212, .maketype312, .maketype412 {
+		  grid-row-start: 2;
+		  grid-row-end: 3;
+		  font-size:  15px;
+		  text-align: center;
+	}
+	.maketype116, .maketype216, .maketype316, .maketype416{
+		display:  none;
+	}
+}
+
+@media only screen and (max-width: 400px){
+   	#services1{
+		margin-top: 50px;
+		margin-left: 5px;
+		margin-right:  5px;
+		margin-bottom: 5px;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 35% 65%;
+	}	
 }
 
 
