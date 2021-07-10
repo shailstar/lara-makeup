@@ -16,7 +16,7 @@
             <li><a class="line" href="/services">Services</a></li>
         </ul>
         <ul id="logo-d">
-            <li> <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a></li>
+            <li> <a href=""><img id="logoimg" src="{% static 'new_logo.jpg' %}" alt="" /></a></li>
         </ul>
         <ul id="right-d">
             <li><a class="line" href="/blog">blog</a></li>
@@ -24,51 +24,219 @@
             <li><a class="line" href="/contact">Contact</a></li>
         </ul>
     </nav>
+
     <nav class="mobile">
         <ul id="logo-m">
-            <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a>
+            <a id="logo" href=""><img src="{% static 'new_logo.jpg' %}" alt=""></a>
 
-            <button>
-                ☰
-            </button>
+            <button class="navbutton">☰</button>
 
         </ul>
         <ul id="left-m">
             <li><a class="line" href="{% url 'home' %}">Home</a></li>
             <li><a class="line" href="/about">About Us</a></li>
             <li><a class="line" href="/services">Services</a></li>
-        </ul>
-
-        <ul id="right-m">
             <li><a class="line" href="/blog">blog</a></li>
             <li><a class="line" href="/portfolio">Portfolio</a></li>
             <li><a class="line" href="/contact">Contact</a></li>
         </ul>
     </nav>
 </header>
-<h1>I am in about us</h1>
+<div id="sec">
+    <div id="sec1">
+        <div id="sec11">
+            <h1>
+                Know about KANIKA
+            </h1>
+            <p>
+                “Kanika” a Successful, Passionate Makeup Artist who uses Makeup to magnify the beauty that already exists,
+                Coming through a diverse learning background, from being a Fashion designer (NIFT), a trained Classical Dancer,
+                to a Educator running Fine Arts Academy (over 10-years of experience), she has constructed herself as a Multi-talented,
+                Skilled girl who is now a Charismatic, Empowered Makeup Artist in the town.
+            </p>
+            <p>
+                After learning Professional Makeup lessons from Dubai and Delhi, and now based in Gurgaon. She is a Proficient and Impeccable
+                Makeup Artist spreading her talent to numerous places such as Canada, Oman, Ludhiana, Delhi and many more. Her work embodies
+                Exclusiveness, Sophistication and Grace. She loves to experiment with Makeup and play with colors to create different Unique and
+                Exclusive looks.
+            </p>
+        </div>
+        <div id="sec12">
+            <div id="sec121">
+                <img src="{% static 'lara2.jpg' %}" alt="" class="cover1" >
+            </div>
+
+        </div>
+    </div>
+    <div id="sec2">
+        <div id="sec21">
+            <p>
+                This inspiring and splendid girl is specialized in Regular makeup, HD makeup, Airbrush makeup, Hairstyling.
+                She uses high- quality makeup products like Chanel, Anastasia Beverly Hills, Fenty Beauty, Huda Beauty, Bobbie Brown,
+                Makeup Forever and many more. Kanika Chanda employs her talent and skills to create phenomenal looks with the latest techniques,
+                which made her a hot favourite among the Brides-to-be, so if you are a going to-be-Bride looking to get adorn on your Special Day,
+                then she is the perfect and endowed choice for you. She can create any look you want whether it is your Engagement, cocktail, Sagan,
+                Mehndi or Wedding day. Her Brides display an Angelic, Elegance, Classy replica rather than being plastic.
+            </p>
+        </div>
+        <div id="sec22">
+            <div id="sec221">
+                <img src="{% static 'lara.jpg' %}" alt="" class="cover1" >
+            </div>
+        </div>
+    </div>
+</div>
+<div id="testimonials">
+    <div id="testimonials1">
+        <h1>Testimonials</h1>
+        <h2>What our clients say</h2>
+        <div id="slides">
+            <div class="left-arrow" onclick="moveLeft()">
+              <h1 class="flexc">&lt;</h1>
+            </div>
+            <div class="Slide">
+               <quote>&rdquo;</quote>
+               <p>Kanika Chanda was my makeup artist on my engagement day and I really liked her work. She was the best of all.
+                   She had done a great job and I loved my look. Even the hairstyle looked so good. In fact, everyone praised it.
+                   I would recommend her any day! The best one that there is! She did exactly what I wanted plus made my bridal makeup experience really fun.
+                   She is really good at her work.
+               </p>
+               <p>
+                   By Henna Khanna
+               </p>
+            </div>
+            <div class="Slide">
+                <quote>&rdquo;</quote>
+                <p> So I decided to get my make up done by you on my big day only because I had quite liked your work at an exhibition..never did I expect that getting my make up done by Kanika Chanda best makeup artist in Gurgaon would be an experience in itself altogether..a beautiful one at that..more than the vatnaas and the poojas, it was the way you treated me and calmed me down throughout that made me glow on my big day.
+                    Needless to say, the complements still haven't stopped pouring yet—for sagan and wedding—both.
+                    I have to admit one thing though: When my not—so-expressive husband saw me entering at the wedding, he complimented me from a distance..and trust me, I did think about you at that moment as well.
+                    Thanks a lot, Kanika..lt was lovely getting ready by you and it was lovelier getting to know you as a makeup artist..lots of love
+                    Sonakshi
+                </p>
+                <p>
+                    By Henna Khanna
+                </p>
+            </div>
+            <div class="Slide">
+                <quote>&rdquo;</quote>
+                <p>Booking Kanika Chanda was one of the best choices I made. I'm glad I chose her for the function.
+                    I received a lot of compliments for my make up. I absolutely loved how she worked her magic on me.
+                    Even though I have oily skin she successfully tackled and overcame it.
+                    She is an extremely talented makeup artist and perfected co-ordinated the makeup with my outfit.
+                    It was not only about the makeup but also the suggestion and recommendations she gave me along with it. All the brides should definitely book her now if they want a perfectly flawless wedding look. PS. You have an amazing studio. Looking forward to seeing you again!
+                </p>
+                <p>
+                   By Henna Khanna
+                </p>
+            </div>
+            <div class="right-arrow" onclick="moveRight()">
+              <h1 class="flexc">&gt;</h1>
+            </div>
+        </div>
+        <div>
+            <ul class="dotList"></ul>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div id="footer1">
+       <img src="{% static 'new_logo.jpg' %}" alt="">
+    </div>
+    <div id="footer2">
+        <div id="links">
+            <div id="links1">
+                <div id = "links11">
+                    <h1>Links</h1>
+                </div>
+            </div>
+            <ul id="links2">
+                <li id="item-a">
+                    <p>About</p>
+                </li>
+                <li id="item-b">
+                    <p>Services</p>
+                </li>
+                <li id="item-c">
+                    <p>blog</p>
+                </li>
+                <li id="item-d">
+                    <p>Portfolio</p>
+                </li>
+                <li id="item-e">
+                    <p>Contact</p>
+                </li>
+            </ul>
+        </div>
+        <div id="social">
+            <h1 id="social1">Social</h1>
+            <div id="social2">
+                <a id="item-1">
+                    <svg
+                      id="svg1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 21.76 18"
+                      height="24"
+                      width="24"
+                    >
+                      <path
+                        class="icon-part"
+                        d="M-1080.21,554.12a9,9,0,0,1-3.22.53h0a4.44,4.44,0,0,0-3.3-1.48,4.47,4.47,0,0,0-4.47,4.47,4.42,4.42,0,0,0,.19,1.22h0a14.05,14.05,0,0,1-9.47-4.93,5,5,0,0,0,1.78,6l-2.36.11s-.37,2.63,3.65,3.64a6,6,0,0,1-3.18,1,7,7,0,0,0,5,2.32,6.68,6.68,0,0,1-6.34,2.24c-.6-.09,8.6,5,15.19-.89,4-3.54,4.5-8.79,4.56-10.59A4.49,4.49,0,0,0-1080.21,554.12Z"
+                        transform="translate(1101.97 -553.17)"
+                      ></path>
+                    </svg>
+                </a>
+                <a id="item-2">
+                    <svg
+                      id="svg2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 19.5 19.5"
+                      height="24"
+                      width="24"
+                    >
+                      <path
+                        class="icon-part"
+                        d="M18.75,9.5H13.6c0,.08,0,.16,0,.25a4,4,0,0,1-8,0c0-.09,0-.17,0-.25H0v4.19A5.82,5.82,0,0,0,5.81,19.5h7.88a5.82,5.82,0,0,0,5.81-5.81V9.5Z"
+                      ></path>
+                      <path
+                        class="icon-part"
+                        d="M13.69,0H5.81A5.82,5.82,0,0,0,0,5.81V8H6a4,4,0,0,1,7.16,0H19.5V5.81A5.82,5.82,0,0,0,13.69,0Zm1.06,5.75a1,1,0,1,1,1-1A1,1,0,0,1,14.75,5.75Z"
+                      ></path>
+                      <path class="icon-part" d="M5.65,9.5h.1"></path>
+                    </svg>
+                </a>
+                <a id="item-3">
+                    <svg
+                      id="svg3"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20.25 19.5"
+                      height="24"
+                      width="24"
+                    >
+                      <circle class="icon-part" cx="2.34" cy="2.34" r="2.34"></circle>
+                      <rect
+                        class="icon-part"
+                        x="0.17"
+                        y="6.36"
+                        width="4.35"
+                        height="13.14"
+                      ></rect>
+                      <path
+                        class="icon-part"
+                        d="M16.88,6.36a4.9,4.9,0,0,0-5.62,1.9V6.36H6.91V19.5h4.35V11.93a2.6,2.6,0,0,1,2.6-2.42c2.35,0,2,4.33,2,4.33V19.5h4.35V13.84S21,7.38,16.88,6.36Z"
+                      ></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
-<!-- library link -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 <!-- script below -->
-<script type="text/javascript">
-  /* only execute this script when the document is ready */
-    $(document).ready(function(){
-      /* function called when you click of the button */
-      $("button").click(function(){
-
-          /* this if else to change the text in the button */
-          if($("button").text() == "☰"){
-           $("button").text("🞬");
-          }else{
-            $("button").text("☰");
-          }
-
-        /* this function toggle the visibility of our "li" elements */
-        $("li").toggle("slow");
-      });
-    });
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://use.fontawesome.com/2f5189959d.js"></script>
+<script src="{% static 'about.js' %}"></script>
 
 </html>

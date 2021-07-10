@@ -1,0 +1,84 @@
+#sec{
+
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	margin-top: 80px;
+}
+#sec1{
+	width: 80%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+	
+}
+#sec11{
+	
+	grid-column-start: 1;
+	grid-column-end: 2;
+	padding-right: 50px;
+}
+#sec11 > h1{
+	font-family: 'Belleza', sans-serif;
+	color: #fc3468;
+	font-size: 42px;
+}
+#sec11 > p{
+	font-family: 'Belleza', sans-serif;
+	font-size: 18px;
+}
+
+#sec12{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+#sec121{
+	border-radius: 75px 1px 75px 1px;
+	overflow: hidden;
+	width: 95%;
+	height:95%;
+}
+
+#sec2{
+	width: 80%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100%;
+	margin-top: 20px;
+}
+
+#sec21{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+
+}
+
+#sec21 > p{
+	font-size: 18px;
+	font-family: 'Belleza', sans-serif;
+}
+
+#sec22{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#sec221{
+	border-radius: 1px 75px 1px 75px;
+	overflow: hidden;
+	width: 95%;
+	height:95%;
+}
+
+#testimonials{
+	background-color: white;
+}
+
+.Slide > p{
+	color: black;
+}

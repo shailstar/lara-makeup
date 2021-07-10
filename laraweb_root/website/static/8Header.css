@@ -60,6 +60,7 @@ header{
 		padding-left: 0px;
 		text-align: center;
 	}
+
 	#logo-m{
 		padding-top: 10px;
 		padding-bottom: 2px;
@@ -80,6 +81,7 @@ header{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 400px) {
+
 	nav.desktop{
 		display: none;
 	}
@@ -122,12 +124,14 @@ header{
   	background: black;
   	border: none;
   }
+
 	#left-m{
 		display: none;
 		margin: 0px;
 		padding-left: 0px;
 		text-align: center;
 	}
+
 	#logo-m{
 		padding-top: 10px;
 		padding-bottom: 2px;
