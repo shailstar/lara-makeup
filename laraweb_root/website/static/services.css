@@ -1,0 +1,121 @@
+#serpage1{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#makeserv1{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+    align-content: center;;
+}
+
+#makeserv1 > h1{
+    color: #fc3468;
+    font-family: 'Belleza', sans-serif;
+    font-size: 45px;
+}
+
+#makeserv1 > p{
+    font-size: 20px;
+}
+
+#makeserv21{
+    list-style-type: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-left: 0px;
+    grid-column-gap: 30px;
+    justify-content: center;
+}
+
+#makeserv21 > li{
+    display:grid;
+    grid-template-rows: 275px 60px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items:center ;
+}
+
+#makeserv211, #makeserv212, #makeserv213, #makeserv214{
+    width: 275px;
+    height: 275px;
+    border-radius: 50px 1px 50px 1px;
+    overflow: hidden;
+}
+
+#makeserv2111, #makeserv2121, #makeserv2131, #makeserv2141{
+    background-color: black;
+    width: 100%;
+    border-radius: 25px 1px 25px 1px;
+    color: white;
+    text-align: center;
+}
+#serpage2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+#serpage21{
+    width: 75%;
+    background-color: black;
+    color: gray;
+    
+}
+
+#serpage210{
+    text-align: center;
+    color: #fc3468;
+}
+
+#serpage211{
+    list-style-type: none;
+    padding-right: 40px;
+
+}
+
+#serpage2111, #serpage2112, #serpage2113, #serpage2114{
+    background-color: white;
+    border-radius: 25px 0px 25px 0px ;
+    padding-left: 25px;
+    height: 200px
+}
+
+#serpage2111 > h1{
+    color: black;
+}
+
+#serpage2111 >p:nth-child(4) {
+    color:#fc3468;
+    font-size: 25px;
+}
+
+#serpage2112 > h1{
+    color: black;
+}
+#serpage2112 >p:nth-child(4) {
+    color:#fc3468;
+    font-size: 25px;
+    
+}
+
+#serpage2113 > h1{
+    color: black;
+}
+#serpage2113 >p:nth-child(4) {
+    color:#fc3468;
+    font-size: 25px;
+}
+
+#serpage2114 > h1{
+    color: black;
+}
+#serpage2114 >p:nth-child(4) {
+    color:#fc3468;
+    font-size: 25px;
+}
