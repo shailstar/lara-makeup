@@ -59,6 +59,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 85px;
+    margin-bottom: 60px;
 }
 
 #serpage21{
@@ -76,15 +77,28 @@
 #serpage211{
     list-style-type: none;
     padding-right: 40px;
-
 }
 
-#serpage2111, #serpage2112, #serpage2113, #serpage2114{
+
+#serpage211 > li{
     background-color: white;
-    border-radius: 25px 0px 25px 0px ;
-    padding-left: 25px;
-    height: 200px
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 25px 0px 25px 0px;
 }
+
+#serpage21110, #serpage21120,#serpage21130,#serpage21140{
+    justify-self: center;
+}
+
+
+
+#serpage2111, #serpage2112,#serpage2113,#serpage2114{
+    padding-left: 25px;
+}
+
 
 #serpage2111 > h1{
     color: black;
@@ -118,4 +132,76 @@
 #serpage2114 >p:nth-child(4) {
     color:#fc3468;
     font-size: 25px;
+}
+
+#serpage21110 >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 130px; 
+    height: 40px
+}
+
+#serpage21110 >div::before{
+    content: "";
+    width: 20px;
+    height:0.5px;
+    background-color: cornsilk;
+}
+
+#serpage21120 >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 130px; 
+    height: 40px
+}
+
+#serpage21120 >div::before{
+    content: "";
+    width: 20px;
+    height:0.5px;
+    background-color: cornsilk;
+}
+
+#serpage21130 >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 130px; 
+    height: 40px
+}
+
+#serpage21130 >div::before{
+    content: "";
+    width: 20px;
+    height:0.5px;
+    background-color: cornsilk;
+}
+
+#serpage21140 >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 130px; 
+    height: 40px
+}
+
+#serpage21140 >div::before{
+    content: "";
+    width: 20px;
+    height:0.5px;
+    background-color: cornsilk;
+}
+
+.readmore{
+    margin-left: 7px;
 }
