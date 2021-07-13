@@ -27,3 +27,16 @@ def portfolio(request):
 
 def contact(request):
     return render(request, 'website/contact.html')
+
+def bridal(request):
+    return render(request, 'website/bridal.html')
+
+def engagement(request):
+    return render(request, 'website/engagement.html')
+
+def prewed(request):
+    return render(request, 'website/prewed.html')
+
+def mehndi(request):
+    return render(request, 'website/mehndi.html')
+

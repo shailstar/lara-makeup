@@ -172,3 +172,21 @@
     border-radius: 5px 5px 5px 5px;
 }
 
+#map{
+    background-color: white;
+}
+
+#map0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fc3468;
+    font-family: 'Belleza', sans-serif;
+    height: 200px;
+    font-size: 25px;
+}
+
+#map1{
+    width: 100%;
+}
+

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Home</title>
     <link href="{% static 'main_style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'portfolio.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
@@ -46,6 +47,46 @@
         </ul>
     </nav>
 </header>
+<div id="portf">
+    <div id="portf0">
+        <ul id="portf01">
+            <li id="portf006">
+                <div id="portf011">
+                    <a href="/portfolio/engagement">
+                    <img src="{% static 'engagement-makeover4.jpg' %}" alt="" class="makephoto">
+                    </a>
+                </div>
+                <p class="porttype"> Engagement MakeOver</p>
+            </li>
+            <li id="portf007">
+                <div id="portf012">
+                    <a href="/portfolio/mehndi">
+                    <img src="{% static 'mehndi-makeover3.jpg' %}" alt="" class="makephoto">
+                    </a>
+                </div>
+                <p class="porttype"> Mehndi MakeOver</p>
+            </li>
+            <li id="portf008">
+                <div id="portf013">
+                    <a href="/portfolio/mehndi">
+                   <img src="{% static 'cocktail-makeover2.jpg' %}" alt="" class="makephoto">
+                    </a>
+                </div>
+                <p class="porttype"> Mehndi MakeOver</p>
+            </li>
+            <li id="portf009">
+                <div id="portf014">
+                    <a href="/portfolio/mehndi">
+                    <img src="{% static 'bridal-makeover1.jpg' %}" alt="" class="makephoto">
+                    </a>
+                </div>
+                <p class="porttype"> Mehndi MakeOver</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--
 <div id="portfolio">
     <div class="line">
         <img id="item1" src="{% static 'Portfolio 1.jpg' %}" alt="" class="cover">
@@ -97,12 +138,14 @@
         <img  id="item39" src="{% static 'Portfolio 39.jpg' %}" alt="" >
     </div>
 </div>
+-->
 </body>
+
 <!-- library link -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
-<script src="{% static 'main.js' %}"></script>
+
 
 <!-- script below -->
 <script type="text/javascript">
