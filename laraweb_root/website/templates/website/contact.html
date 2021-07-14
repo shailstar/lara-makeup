@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Home</title>
-    <link href="{% static 'main_style.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'contact.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/main_style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/contact.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
@@ -17,7 +17,7 @@
             <li><a class="line" href="/services">Services</a></li>
         </ul>
         <ul id="logo-d">
-            <li> <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a></li>
+            <li> <a href=""><img id="logoimg" src="{% static '/Pictures/new_logo.jpg' %}" alt="" /></a></li>
         </ul>
         <ul id="right-d">
             <li><a class="line" href="/blog">blog</a></li>
@@ -25,22 +25,18 @@
             <li><a class="line" href="/contact">Contact</a></li>
         </ul>
     </nav>
+
     <nav class="mobile">
         <ul id="logo-m">
-            <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a>
+            <a id="logo" href=""><img src="{% static '/Pictures/new_logo.jpg' %}" alt=""></a>
 
-            <button>
-                ☰
-            </button>
+            <button class="navbutton">☰</button>
 
         </ul>
         <ul id="left-m">
             <li><a class="line" href="{% url 'home' %}">Home</a></li>
             <li><a class="line" href="/about">About Us</a></li>
             <li><a class="line" href="/services">Services</a></li>
-        </ul>
-
-        <ul id="right-m">
             <li><a class="line" href="/blog">blog</a></li>
             <li><a class="line" href="/portfolio">Portfolio</a></li>
             <li><a class="line" href="/contact">Contact</a></li>
@@ -66,7 +62,7 @@
             </div>
         </div>
         <div id="call11">
-            <img src="{% static 'lara2.jpg' %}" alt="" class="cover1" >
+            <img src="{% static '/Pictures/lara2.jpg' %}" alt="" class="cover1" >
         </div>
         <div id="call12">
             <ul id="call120">
@@ -245,7 +241,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
-<script src="{% static 'contact.js' %}"></script>
+<script src="{% static '/Javascript/contact.js' %}"></script>
 <!--<script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEKXHsegJjnEj-EG5fYb4-2CmOfcKrVGg&callback=initMap">
 </script>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Home</title>
-    <link href="{% static 'main_style.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'services.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/main_style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/services.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
@@ -17,7 +17,7 @@
             <li><a class="line" href="/services">Services</a></li>
         </ul>
         <ul id="logo-d">
-            <li> <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a></li>
+            <li> <a href=""><img id="logoimg" src="{% static '/Pictures/new_logo.jpg' %}" alt="" /></a></li>
         </ul>
         <ul id="right-d">
             <li><a class="line" href="/blog">blog</a></li>
@@ -25,22 +25,18 @@
             <li><a class="line" href="/contact">Contact</a></li>
         </ul>
     </nav>
+
     <nav class="mobile">
         <ul id="logo-m">
-            <a href=""><img src="{% static 'new_logo.jpg' %}" alt="" /></a>
+            <a id="logo" href=""><img src="{% static '/Pictures/new_logo.jpg' %}" alt=""></a>
 
-            <button>
-                ☰
-            </button>
+            <button class="navbutton">☰</button>
 
         </ul>
         <ul id="left-m">
             <li><a class="line" href="{% url 'home' %}">Home</a></li>
             <li><a class="line" href="/about">About Us</a></li>
             <li><a class="line" href="/services">Services</a></li>
-        </ul>
-
-        <ul id="right-m">
             <li><a class="line" href="/blog">blog</a></li>
             <li><a class="line" href="/portfolio">Portfolio</a></li>
             <li><a class="line" href="/contact">Contact</a></li>
@@ -64,7 +60,7 @@
             <ul id="makeserv21">
                 <li>
                     <div id="makeserv211">
-                        <img src="{% static 'prewed1.jpg' %}" alt="" class="makephoto">
+                        <img src="{% static '/Pictures/prewed1.jpg' %}" alt="" class="makephoto">
                     </div>
                     <div id="makeserv2111">
                         <p>
@@ -74,7 +70,7 @@
                 </li>
                 <li>
                     <div id="makeserv212">
-                        <img src="{% static 'mehndi1.jpg' %}" alt="" class="makephoto">
+                        <img src="{% static '/Pictures/mehndi1.jpg' %}" alt="" class="makephoto">
                     </div>
                     <div id="makeserv2121">
                         <p>
@@ -84,7 +80,7 @@
                 </li>
                 <li>
                     <div id="makeserv213">
-                        <img src="{% static 'engage1.jpg' %}" alt="" class="makephoto">
+                        <img src="{% static '/Pictures/engage1.jpg' %}" alt="" class="makephoto">
                     </div>
                     <div id="makeserv2131">
                         <p>
@@ -94,7 +90,7 @@
                 </li>
                 <li>
                     <div id="makeserv214">
-                        <img src="{% static 'bride1.jpg' %}" alt="" class="makephoto">
+                        <img src="{% static '/Pictures/bride1.jpg' %}" alt="" class="makephoto">
                     </div>
                     <div id="makeserv2141">
                         <p>

@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Home</title>
-    <link href="{% static 'about.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'main_style.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'about.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/main_style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/about.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
@@ -18,7 +17,7 @@
             <li><a class="line" href="/services">Services</a></li>
         </ul>
         <ul id="logo-d">
-            <li> <a href=""><img id="logoimg" src="{% static 'new_logo.jpg' %}" alt="" /></a></li>
+            <li> <a href=""><img id="logoimg" src="{% static '/Pictures/new_logo.jpg' %}" alt="" /></a></li>
         </ul>
         <ul id="right-d">
             <li><a class="line" href="/blog">blog</a></li>
@@ -29,7 +28,7 @@
 
     <nav class="mobile">
         <ul id="logo-m">
-            <a id="logo" href=""><img src="{% static 'new_logo.jpg' %}" alt=""></a>
+            <a id="logo" href=""><img src="{% static '/Pictures/new_logo.jpg' %}" alt=""></a>
 
             <button class="navbutton">☰</button>
 
@@ -65,7 +64,7 @@
         </div>
         <div id="sec12">
             <div id="sec121">
-                <img src="{% static 'lara2.jpg' %}" alt="" class="cover1" >
+                <img src="{% static '/Pictures/lara2.jpg' %}" alt="" class="cover1" >
             </div>
 
         </div>
@@ -83,7 +82,7 @@
         </div>
         <div id="sec22">
             <div id="sec221">
-                <img src="{% static 'lara.jpg' %}" alt="" class="cover1" >
+                <img src="{% static '/Pictures/lara.jpg' %}" alt="" class="cover1" >
             </div>
         </div>
     </div>
@@ -239,6 +238,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
-<script src="{% static 'about.js' %}"></script>
+<script src="{% static '/Javascript/about.js' %}"></script>
 
 </html>

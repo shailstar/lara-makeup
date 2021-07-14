@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="{% static 'main_style.css' %}" rel="stylesheet" type="text/css">
-    <link href="{% static 'portfolio.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/main_style.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/portfolio.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
+<header>
     <nav class="desktop">
         <ul id="left-d">
             <li><a class="line" href="{% url 'home' %}">Home</a></li>
@@ -18,7 +18,7 @@
             <li><a class="line" href="/services">Services</a></li>
         </ul>
         <ul id="logo-d">
-            <li> <a href=""><img id="logoimg" src="{% static 'new_logo.jpg' %}" alt="" /></a></li>
+            <li> <a href=""><img id="logoimg" src="{% static '/Pictures/new_logo.jpg' %}" alt="" /></a></li>
         </ul>
         <ul id="right-d">
             <li><a class="line" href="/blog">blog</a></li>
@@ -29,7 +29,7 @@
 
     <nav class="mobile">
         <ul id="logo-m">
-            <a id="logo" href=""><img src="{% static 'new_logo.jpg' %}" alt=""></a>
+            <a id="logo" href=""><img src="{% static '/Pictures/new_logo.jpg' %}" alt=""></a>
 
             <button class="navbutton">☰</button>
 
@@ -49,27 +49,27 @@
         <ul id="enga01">
             <li >
                 <div id="enga011">
-                    <img src="{% static 'prewed5.jpg' %}" alt="" class="makephoto">
+                    <img src="{% static '/Pictures/prewed5.jpg' %}" alt="" class="makephoto">
                 </div>
             </li>
             <li>
                 <div id="enga012">
-                    <img src="{% static 'prewed6.jpg' %}" alt="" class="makephoto">
+                    <img src="{% static '/Pictures/prewed6.jpg' %}" alt="" class="makephoto">
                 </div>
             </li>
             <li>
                 <div id="enga013">
-                    <img src="{% static 'prewed7.jpg' %}" alt="" class="makephoto">
+                    <img src="{% static '/Pictures/prewed7.jpg' %}" alt="" class="makephoto">
                 </div>
             </li>
             <li>
                 <div id="enga014">
-                    <img src="{% static 'prewed8.jpg' %}" alt="" class="makephoto">
+                    <img src="{% static '/Pictures/prewed8.jpg' %}" alt="" class="makephoto">
                 </div>
             </li>
             <li>
                 <div id="enga016">
-                    <img src="{% static 'prewed9.jpg' %}" alt="" class="makephoto">
+                    <img src="{% static '/Pictures/prewed9.jpg' %}" alt="" class="makephoto">
                 </div>
             </li>
         </ul>
