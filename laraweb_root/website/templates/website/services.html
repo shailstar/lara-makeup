@@ -266,25 +266,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
+<script src="{% static '/Javascript/service.js' %}"></script>
 
-<!-- script below -->
-<script type="text/javascript">
-  /* only execute this script when the document is ready */
-    $(document).ready(function(){
-      /* function called when you click of the button */
-      $("button").click(function(){
-
-          /* this if else to change the text in the button */
-          if($("button").text() == "☰"){
-           $("button").text("🞬");
-          }else{
-            $("button").text("☰");
-          }
-
-        /* this function toggle the visibility of our "li" elements */
-        $("li").toggle("slow");
-      });
-    });
-</script>
 
 </html>

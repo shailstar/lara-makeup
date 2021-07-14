@@ -7,6 +7,7 @@
     <title>Home</title>
     <link href="{% static '/CSS/main_style.css' %}" rel="stylesheet" type="text/css">
     <link href="{% static '/CSS/contact.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static '/CSS/contact.css' %}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
@@ -43,6 +44,7 @@
         </ul>
     </nav>
 </header>
+
 <div id="call0">
     <div id="call1">
         <div id="call10">
@@ -143,7 +145,7 @@
 </div>
 <div id="footer">
     <div id="footer1">
-       <img src="{% static 'new_logo.jpg' %}" alt="">
+       <img src="{% static '/Pictures/new_logo.jpg' %}" alt="">
     </div>
     <div id="footer2">
         <div id="links">
@@ -237,33 +239,12 @@
 </body>
 <!-- library link -->
 
+<!-- library link -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://use.fontawesome.com/2f5189959d.js"></script>
-<script src="{% static '/Javascript/contact.js' %}"></script>
-<!--<script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEKXHsegJjnEj-EG5fYb4-2CmOfcKrVGg&callback=initMap">
-</script>
--->
-<!-- script below -->
-<script type="text/javascript">
-  /* only execute this script when the document is ready */
-    $(document).ready(function(){
-      /* function called when you click of the button */
-      $("button").click(function(){
+<script src="{% static 'Javascript/contact.js' %}"></script>
 
-          /* this if else to change the text in the button */
-          if($("button").text() == "☰"){
-           $("button").text("🞬");
-          }else{
-            $("button").text("☰");
-          }
-
-        /* this function toggle the visibility of our "li" elements */
-        $("li").toggle("slow");
-      });
-    });
-</script>
 
 </html>

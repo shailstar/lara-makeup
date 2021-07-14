@@ -11,6 +11,3 @@ navbut.addEventListener('click', function(){
       navmenu.style.display = "none";
   }
 })
-
-
-
