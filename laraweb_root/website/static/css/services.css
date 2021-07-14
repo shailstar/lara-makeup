@@ -1,207 +1,444 @@
-#serpage1{
-    width: 100%;
-    margin-top: 50px;
-}
 
-#makeserv1{
-    text-align: center;
-    display: grid;
-    grid-template-columns: 75%;
-    justify-content: center;
-    align-content: center;;
-}
 
-#makeserv1 > h1{
-    color: #fc3468;
-    font-family: 'Belleza', sans-serif;
-    font-size: 45px;
-}
 
-#makeserv1 > p{
-    font-size: 20px;
-}
 
-#makeserv21{
-    list-style-type: none;
-    display: grid;
-    width: 100%;
-    grid-template-columns: 20% 20% 20% 20%;
-    padding-left: 0px;
-    grid-column-gap: 30px;
-    justify-content: center;
-}
-
-#makeserv21 > li{
-    display:grid;
-    grid-template-rows: 275px 60px;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items:center ;
-}
-
-#makeserv211, #makeserv212, #makeserv213, #makeserv214{
-    width: 275px;
-    height: 275px;
-    border-radius: 50px 1px 50px 1px;
-    overflow: hidden;
-}
-
-#makeserv2111, #makeserv2121, #makeserv2131, #makeserv2141{
-    background-color: black;
-    width: 100%;
-    border-radius: 25px 1px 25px 1px;
-    color: white;
-    text-align: center;
-}
-#serpage2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 85px;
-    margin-bottom: 60px;
-}
-
-#serpage21{
-    width: 75%;
-    background-color: black;
-    color: gray;
+@media only screen and (min-width: 1200px) {
+    #serpage1{
+        width: 100%;
+        margin-top: 50px;
+    }
     
-}
-
-#serpage210{
-    text-align: center;
-    color: #fc3468;
-}
-
-#serpage211{
-    list-style-type: none;
-    padding-right: 40px;
-}
-
-
-#serpage211 > li{
-    background-color: white;
-    display: grid;
-    grid-template-columns: 80% 20%;
-    align-items: center;
-    margin-bottom: 20px;
-    border-radius: 25px 0px 25px 0px;
-}
-
-#serpage21110, #serpage21120,#serpage21130,#serpage21140{
-    justify-self: center;
-}
-
-
-
-#serpage2111, #serpage2112,#serpage2113,#serpage2114{
-    padding-left: 25px;
-}
-
-
-#serpage2111 > h1{
-    color: black;
-}
-
-#serpage2111 >p:nth-child(4) {
-    color:#fc3468;
-    font-size: 25px;
-}
-
-#serpage2112 > h1{
-    color: black;
-}
-#serpage2112 >p:nth-child(4) {
-    color:#fc3468;
-    font-size: 25px;
+    #makeserv1{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center;
+        align-content: center;;
+    }
     
+    #makeserv1 > h1{
+        color: #fc3468;
+        font-family: 'Belleza', sans-serif;
+        font-size: 45px;
+    }
+    
+    #makeserv1 > p{
+        font-size: 20px;
+    }
+    
+    #makeserv21{
+        list-style-type: none;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 20% 20% 20% 20%;
+        padding-left: 0px;
+        grid-column-gap: 30px;
+        justify-content: center;
+    }
+    
+    #makeserv21 > li{
+        display:grid;
+        grid-template-rows: 275px 60px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items:center ;
+    }
+    
+    #makeserv211, #makeserv212, #makeserv213, #makeserv214{
+        width: 275px;
+        height: 275px;
+        border-radius: 50px 1px 50px 1px;
+        overflow: hidden;
+    }
+    
+    #makeserv2111, #makeserv2121, #makeserv2131, #makeserv2141{
+        background-color: black;
+        width: 100%;
+        border-radius: 25px 1px 25px 1px;
+        color: white;
+        text-align: center;
+    }
+    #serpage2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 85px;
+        margin-bottom: 60px;
+    }
+    
+    #serpage21{
+        width: 75%;
+        background-color: black;
+        color: gray;
+        
+    }
+    
+    #serpage210{
+        text-align: center;
+        color: #fc3468;
+    }
+    
+    #serpage211{
+        list-style-type: none;
+        padding-right: 40px;
+    }
+    
+    
+    #serpage211 > li{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        align-items: center;
+        margin-bottom: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    
+    #serpage21110, #serpage21120,#serpage21130,#serpage21140{
+        justify-self: center;
+    }
+    
+    
+    
+    #serpage2111, #serpage2112,#serpage2113,#serpage2114{
+        padding-left: 25px;
+    }
+    
+    
+    #serpage2111 > h1{
+        color: black;
+    }
+    
+    #serpage2111 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+    }
+    
+    #serpage2112 > h1{
+        color: black;
+    }
+    #serpage2112 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+        
+    }
+    
+    #serpage2113 > h1{
+        color: black;
+    }
+    #serpage2113 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+    }
+    
+    #serpage2114 > h1{
+        color: black;
+    }
+    #serpage2114 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+    }
+    
+    #serpage21110 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21110 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    #serpage21120 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21120 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    #serpage21130 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21130 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    #serpage21140 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21140 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    .readmore{
+        margin-left: 7px;
+    }
 }
 
-#serpage2113 > h1{
-    color: black;
-}
-#serpage2113 >p:nth-child(4) {
-    color:#fc3468;
-    font-size: 25px;
+@media only screen and (max-width: 1200px) {
+    #serpage1{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    #makeserv1{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center;
+        align-content: center;;
+    }
+    
+    #makeserv1 > h1{
+        color: #fc3468;
+        font-family: 'Belleza', sans-serif;
+        font-size: 45px;
+    }
+    
+    #makeserv1 > p{
+        font-size: 20px;
+    }
+    
+    #makeserv21{
+        list-style-type: none;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 20% 20% 20% 20%;
+        padding-left: 0px;
+        grid-column-gap: 30px;
+        justify-content: center;
+    }
+    
+    #makeserv21 > li{
+        display:grid;
+        grid-template-rows: 275px 60px;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items:center ;
+    }
+    
+    #makeserv211, #makeserv212, #makeserv213, #makeserv214{
+        width: 275px;
+        height: 275px;
+        border-radius: 50px 1px 50px 1px;
+        overflow: hidden;
+    }
+    
+    #makeserv2111, #makeserv2121, #makeserv2131, #makeserv2141{
+        background-color: black;
+        width: 100%;
+        border-radius: 25px 1px 25px 1px;
+        color: white;
+        text-align: center;
+    }
+    #serpage2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 85px;
+        margin-bottom: 60px;
+    }
+    
+    #serpage21{
+        width: 75%;
+        background-color: black;
+        color: gray;
+        
+    }
+    
+    #serpage210{
+        text-align: center;
+        color: #fc3468;
+    }
+    
+    #serpage211{
+        list-style-type: none;
+        padding-right: 40px;
+    }
+    
+    
+    #serpage211 > li{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        align-items: center;
+        margin-bottom: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    
+    #serpage21110, #serpage21120,#serpage21130,#serpage21140{
+        justify-self: center;
+    }
+    
+    
+    
+    #serpage2111, #serpage2112,#serpage2113,#serpage2114{
+        padding-left: 25px;
+    }
+    
+    
+    #serpage2111 > h1{
+        color: black;
+    }
+    
+    #serpage2111 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+    }
+    
+    #serpage2112 > h1{
+        color: black;
+    }
+    #serpage2112 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+        
+    }
+    
+    #serpage2113 > h1{
+        color: black;
+    }
+    #serpage2113 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+    }
+    
+    #serpage2114 > h1{
+        color: black;
+    }
+    #serpage2114 >p:nth-child(4) {
+        color:#fc3468;
+        font-size: 25px;
+    }
+    
+    #serpage21110 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21110 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    #serpage21120 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21120 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    #serpage21130 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21130 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    #serpage21140 >div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        width: 130px; 
+        height: 40px
+    }
+    
+    #serpage21140 >div::before{
+        content: "";
+        width: 20px;
+        height:0.5px;
+        background-color: cornsilk;
+    }
+    
+    .readmore{
+        margin-left: 7px;
+    }
 }
 
-#serpage2114 > h1{
-    color: black;
-}
-#serpage2114 >p:nth-child(4) {
-    color:#fc3468;
-    font-size: 25px;
+
+@media only screen and (max-width: 992px) {
+    #makeserv21{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #serpage211 >li{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-#serpage21110 >div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    width: 130px; 
-    height: 40px
-}
 
-#serpage21110 >div::before{
-    content: "";
-    width: 20px;
-    height:0.5px;
-    background-color: cornsilk;
-}
+@media only screen and (max-width: 768px) {}
 
-#serpage21120 >div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    width: 130px; 
-    height: 40px
-}
 
-#serpage21120 >div::before{
-    content: "";
-    width: 20px;
-    height:0.5px;
-    background-color: cornsilk;
-}
+@media only screen and (max-width: 600px) {}
 
-#serpage21130 >div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    width: 130px; 
-    height: 40px
-}
-
-#serpage21130 >div::before{
-    content: "";
-    width: 20px;
-    height:0.5px;
-    background-color: cornsilk;
-}
-
-#serpage21140 >div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    width: 130px; 
-    height: 40px
-}
-
-#serpage21140 >div::before{
-    content: "";
-    width: 20px;
-    height:0.5px;
-    background-color: cornsilk;
-}
-
-.readmore{
-    margin-left: 7px;
-}
+@media only screen and (max-width: 450px) {}

@@ -1,84 +1,215 @@
-#sec{
+@media only screen and (min-width: 1200px) {
+	#sec{
 
-	display: grid;
-	align-items: center;
-	justify-items: center;
-	margin-top: 80px;
-}
-#sec1{
-	width: 80%;
-	display: grid;
-	grid-template-columns: 50% 50%;
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		margin-top: 80px;
+	}
+	#sec1{
+		width: 80%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		
+		
+	}
+	#sec11{
+		
+		grid-column-start: 1;
+		grid-column-end: 2;
+		padding-right: 50px;
+	}
+	#sec11 > h1{
+		font-family: 'Belleza', sans-serif;
+		color: #fc3468;
+		font-size: 42px;
+	}
+	#sec11 > p{
+		font-family: 'Belleza', sans-serif;
+		font-size: 18px;
+	}
 	
+	#sec12{
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
 	
-}
-#sec11{
+	#sec121{
+		border-radius: 75px 1px 75px 1px;
+		overflow: hidden;
+		width: 95%;
+		height:95%;
+	}
 	
-	grid-column-start: 1;
-	grid-column-end: 2;
-	padding-right: 50px;
-}
-#sec11 > h1{
-	font-family: 'Belleza', sans-serif;
-	color: #fc3468;
-	font-size: 42px;
-}
-#sec11 > p{
-	font-family: 'Belleza', sans-serif;
-	font-size: 18px;
-}
-
-#sec12{
-	grid-column-start: 2;
-	grid-column-end: 3;
-}
-
-#sec121{
-	border-radius: 75px 1px 75px 1px;
-	overflow: hidden;
-	width: 95%;
-	height:95%;
-}
-
-#sec2{
-	width: 80%;
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: 100%;
-	margin-top: 20px;
-}
-
-#sec21{
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
-
-}
-
-#sec21 > p{
-	font-size: 18px;
-	font-family: 'Belleza', sans-serif;
+	#sec2{
+		width: 80%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 100%;
+		margin-top: 20px;
+	}
+	
+	#sec21{
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	
+	}
+	
+	#sec21 > p{
+		font-size: 18px;
+		font-family: 'Belleza', sans-serif;
+	}
+	
+	#sec22{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	
+	#sec221{
+		border-radius: 1px 75px 1px 75px;
+		overflow: hidden;
+		width: 95%;
+		height:95%;
+	}
+	
+	#testimonials{
+		background-color: white;
+	}
+	
+	.Slide > p{
+		color: black;
+	}
 }
 
-#sec22{
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 2;
+@media only screen and (max-width: 1200px) {
+	#sec{
+
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		margin-top: 80px;
+	}
+	#sec1{
+		width: 80%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		
+		
+	}
+	#sec11{
+		
+		grid-column-start: 1;
+		grid-column-end: 2;
+		padding-right: 50px;
+	}
+	#sec11 > h1{
+		font-family: 'Belleza', sans-serif;
+		color: #fc3468;
+		font-size: 42px;
+	}
+	#sec11 > p{
+		font-family: 'Belleza', sans-serif;
+		font-size: 18px;
+	}
+	
+	#sec12{
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+	
+	#sec121{
+		border-radius: 75px 1px 75px 1px;
+		overflow: hidden;
+		width: 95%;
+		height:95%;
+	}
+	
+	#sec2{
+		width: 80%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 100%;
+		margin-top: 20px;
+	}
+	
+	#sec21{
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	
+	}
+	
+	#sec21 > p{
+		font-size: 18px;
+		font-family: 'Belleza', sans-serif;
+	}
+	
+	#sec22{
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	
+	#sec221{
+		border-radius: 1px 75px 1px 75px;
+		overflow: hidden;
+		width: 95%;
+		height:95%;
+	}
+	
+	#testimonials{
+		background-color: white;
+	}
+	
+	.Slide > p{
+		color: black;
+	}
 }
 
-#sec221{
-	border-radius: 1px 75px 1px 75px;
-	overflow: hidden;
-	width: 95%;
-	height:95%;
+
+@media only screen and (max-width: 992px) {
+	#sec{
+		margin-top: 20px;
+	}
+	#sec1{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#sec11{
+		padding-right: 0px;
+		text-align: center;
+	}
+
+	#sec21{
+		text-align: center;
+	}
+	#sec2{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#testimonials1 > h1{
+		color: #fc3468;
+	}
+	#testimonials1 > h2 {
+		color: #fc3468;
+	}
 }
 
-#testimonials{
-	background-color: white;
+
+@media only screen and (max-width: 768px) {
+
+
 }
 
-.Slide > p{
-	color: black;
-}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 450px) {}

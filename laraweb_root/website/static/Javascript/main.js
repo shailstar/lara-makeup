@@ -114,7 +114,7 @@ let p = document.getElementsByClassName('Drag1');
 let q = document.getElementsByClassName('Drag2');
 let r = document.getElementsByClassName('Drag3');
 let s = document.getElementsByClassName('Drag4');
-console.log(p);
+
 p[0].addEventListener('click', me0); 
 q[0].addEventListener('click', me1); 
 r[0].addEventListener('click', me2); 

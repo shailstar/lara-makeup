@@ -1,99 +1,219 @@
-#portf{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#portf0{
-    width: 80%;
-    hight: 100vh;
-}
-#portf01{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    padding-left: 0px;
-}
-#portf006{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-#portf007{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+@media only screen and (min-width: 1200px) {
+    #portf{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #portf0{
+        width: 80%;
+        hight: 100vh;
+    }
+    #portf01{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        padding-left: 0px;
+    }
+    #portf006{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #portf007{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #portf008{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #portf009{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #portf01 >li{
+        list-style-type:none;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #portf011{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    }
+    
+    #portf012{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    }
+    
+    #portf013{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    
+    }
+    
+    #portf014{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    
+    }
+    
+    .porttype{
+        font-family: 'Belleza', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #enga01{
+        list-style-type: none;
+        display: flex;
+        flex: 4;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0px;
+    }
+    
+    #enga01 >li{
+        width: 30vw;
+    }
 }
 
-#portf008{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+@media only screen and (max-width: 1200px) {
+    #portf{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #portf0{
+        width: 80%;
+        hight: 100vh;
+    }
+    #portf01{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        padding-left: 0px;
+    }
+    #portf006{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    #portf007{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #portf008{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #portf009{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    #portf01 >li{
+        list-style-type:none;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #portf011{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    }
+    
+    #portf012{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    }
+    
+    #portf013{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    
+    }
+    
+    #portf014{
+        width: 80%;
+        height: 90%;
+        border-radius: 35px 0px 35px 0px;
+        overflow: hidden;
+    
+    }
+    
+    .porttype{
+        font-family: 'Belleza', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    #enga01{
+        list-style-type: none;
+        display: flex;
+        flex: 4;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0px;
+    }
+    
+    #enga01 >li{
+        width: 30vw;
+    }
 }
 
-#portf009{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+
+@media only screen and (max-width: 992px) {
+    #portf01{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-#portf01 >li{
-    list-style-type:none;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 
-#portf011{
-    width: 80%;
-    height: 90%;
-    border-radius: 35px 0px 35px 0px;
-    overflow: hidden;
-}
+@media only screen and (max-width: 768px) {}
 
-#portf012{
-    width: 80%;
-    height: 90%;
-    border-radius: 35px 0px 35px 0px;
-    overflow: hidden;
-}
 
-#portf013{
-    width: 80%;
-    height: 90%;
-    border-radius: 35px 0px 35px 0px;
-    overflow: hidden;
+@media only screen and (max-width: 600px) {}
 
-}
-
-#portf014{
-    width: 80%;
-    height: 90%;
-    border-radius: 35px 0px 35px 0px;
-    overflow: hidden;
-
-}
-
-.porttype{
-    font-family: 'Belleza', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#enga01{
-    list-style-type: none;
-    display: flex;
-    flex: 4;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-left: 0px;
-}
-
-#enga01 >li{
-    width: 30vw;
-}
+@media only screen and (max-width: 450px) {}
