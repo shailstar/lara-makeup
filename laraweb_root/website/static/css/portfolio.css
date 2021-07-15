@@ -191,14 +191,13 @@
     #enga01{
         list-style-type: none;
         display: flex;
-        flex: 4;
         flex-wrap: wrap;
         justify-content: space-around;
         padding-left: 0px;
     }
     
     #enga01 >li{
-        width: 30vw;
+        width: 300px;
     }
 }
 
