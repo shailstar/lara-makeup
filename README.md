@@ -1,1 +1,1 @@
-[Uploading Animated GIF-downsized_large.gif…]()
+![](https://media.giphy.com/media/YgSImxHYFXzCUPphIo/giphy.gif)
